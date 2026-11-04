@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green Valley Estate | Plot Explorer (sample)</title>
+  <meta name="description" content="Sample real-estate plot explorer: site plan overlay on satellite imagery, plot status, prices in perches, measure tool.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand"><span class="mark" aria-hidden="true"></span><div><b>Green Valley <em>Estate</em></b><small>Plot explorer &middot; sample project with invented data</small></div></div>
+    <div class="nav-actions"><button id="dl" type="button" class="outline">Download price list (CSV)</button></div>
+  </header>
+
+  <div class="shell">
+    <aside class="side" aria-label="Plot list and filters">
+      <section class="stats" id="stats" aria-live="polite"></section>
+
+      <section class="filters">
+        <h2>Filter plots</h2>
+        <div class="status-row" id="status-chips" role="group" aria-label="Status"></div>
+        <label for="maxprice">Max price <output id="maxprice-out"></output></label>
+        <input id="maxprice" type="range">
+        <label for="minsize">Min size <output id="minsize-out"></output></label>
+        <input id="minsize" type="range" min="0" max="40" step="1" value="0">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="no">Plot number</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="size-desc">Size: large to small</option>
+        </select>
+      </section>
+
+      <section class="plots">
+        <div class="plots-head"><h2>Plots</h2><span id="count"></span></div>
+        <ul id="plot-list" class="plot-list"></ul>
+      </section>
+    </aside>
+
+    <main class="mapwrap">
+      <div id="map" role="application" aria-label="Estate map"></div>
+
+      <div class="layers" id="layers">
+        <b>Layers</b>
+        <label><input type="checkbox" id="l-plan" checked> Site plan image</label>
+        <label class="indent">Opacity <input type="range" id="plan-op" min="0.1" max="1" step="0.05" value="0.6"></label>
+        <label><input type="checkbox" id="l-plots" checked> Plots (by status)</label>
+        <label><input type="checkbox" id="l-roads" checked> Roads</label>
+        <div class="seg">
+          <label><input type="radio" name="base" value="sat" checked><span>Satellite</span></label>
+          <label><input type="radio" name="base" value="map"><span>Map</span></label>
+        </div>
+        <button type="button" id="measure" class="tool">Measure distance</button>
+      </div>
+
+      <div class="chip" id="measure-chip" hidden></div>
+      <div class="legend" id="legend"></div>
+
+      <aside class="drawer" id="drawer" hidden aria-live="polite"></aside>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data/plots.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

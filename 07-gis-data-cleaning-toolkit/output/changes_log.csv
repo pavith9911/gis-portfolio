@@ -1,0 +1,311 @@
+record_id,field,before,after,rule
+S0004,category,HEALTH POST,Health Post,category_standardised
+S0004,date,19/05/2025,2025-05-19,date_normalised
+S0005,category,Watter Point,Water Point,category_standardised
+S0006,lat/lon,"80.136935,6.264861","6.264861,80.136935",swapped_lat_lon
+S0007,category,Schol,School,category_standardised
+S0007,date,15/04/2025,2025-04-15,date_normalised
+S0010,category,HEALTH POST,Health Post,category_standardised
+S0010,date,04/12/2025,2025-12-04,date_normalised
+S0011,date,8-Apr-2025,2025-04-08,date_normalised
+S0013,lat,"9,336672",9.336672,decimal_comma
+S0013,lon,"80,310334",80.310334,decimal_comma
+S0016,category,Comunity Hall,Community Hall,category_standardised
+S0017,date,04/08/2025,2025-08-04,date_normalised
+S0018,date,15-Sep-2025,2025-09-15,date_normalised
+S0019,category,Comm. Hall,Community Hall,category_standardised
+S0021,date,07/12/2025,2025-12-07,date_normalised
+S0022,date,03/12/2025,2025-12-03,date_normalised
+S0024,lat/lon,"81.113121,8.372443","8.372443,81.113121",swapped_lat_lon
+S0024,category,Place of Worhsip,Place of Worship,category_standardised
+S0024,date,24/11/2025,2025-11-24,date_normalised
+S0025,date,15-Jul-2025,2025-07-15,date_normalised
+S0026,lat,7 36 56.6 N,7.615722,dms_converted
+S0026,lon,"81°18'52.0""E",81.314444,dms_converted
+S0026,date,28/11/2025,2025-11-28,date_normalised
+S0027,category,Worship Place,Place of Worship,category_standardised
+S0027,date,05/09/2025,2025-09-05,date_normalised
+S0030,date,7-May-2025,2025-05-07,date_normalised
+S0031,category,Schol,School,category_standardised
+S0031,date,25-Oct-2025,2025-10-25,date_normalised
+S0032,category,community hall,Community Hall,category_standardised
+S0033,date,08/01/2025,2025-01-08,date_normalised
+S0034,date,07/09/2025,2025-09-07,date_normalised
+S0036,date,25/10/2025,2025-10-25,date_normalised
+S0037,category,Helth Post,Health Post,category_standardised
+S0038,category,Water Pt,Water Point,category_standardised
+S0039,category,COMMUNITY HALL,Community Hall,category_standardised
+S0041,lat,"7°43'17.9""N",7.721639,dms_converted
+S0041,lon,80d32m45.2sE,80.545889,dms_converted
+S0041,date,10-Apr-2025,2025-04-10,date_normalised
+S0044,date,15-Feb-2025,2025-02-15,date_normalised
+S0046,date,7-Feb-2025,2025-02-07,date_normalised
+S0048,date,7-Jan-2025,2025-01-07,date_normalised
+S0049,lat,8d54m24.6sN,8.906833,dms_converted
+S0049,lon,80 57 17.7 E,80.954917,dms_converted
+S0049,date,20/12/2025,2025-12-20,date_normalised
+S0050,lat,"8°55'58.2""N",8.932833,dms_converted
+S0050,lon,80d35m27.0sE,80.590833,dms_converted
+S0051,date,17-Jun-2025,2025-06-17,date_normalised
+S0052,category,Hlth Post,Health Post,category_standardised
+S0053,category,Helth Post,Health Post,category_standardised
+S0055,category,Place of Worhsip,Place of Worship,category_standardised
+S0055,date,19-Jul-2025,2025-07-19,date_normalised
+S0056,lat/lon,"80.208758,6.312516","6.312516,80.208758",swapped_lat_lon
+S0059,date,21-Sep-2025,2025-09-21,date_normalised
+S0060,category,water point,Water Point,category_standardised
+S0060,date,02/11/2025,2025-11-02,date_normalised
+S0061,category,Comunity Hall,Community Hall,category_standardised
+S0062,lat/lon,"80.508831,7.178381","7.178381,80.508831",swapped_lat_lon
+S0062,date,02/06/2025,2025-06-02,date_normalised
+S0064,lat,7d42m8.4sN,7.702333,dms_converted
+S0064,lon,80 2 41.6 E,80.044889,dms_converted
+S0064,category,HEALTH POST,Health Post,category_standardised
+S0065,date,4-Mar-2025,2025-03-04,date_normalised
+S0066,category,Helth Post,Health Post,category_standardised
+S0067,category,Comm. Hall,Community Hall,category_standardised
+S0067,date,12-Feb-2025,2025-02-12,date_normalised
+S0071,date,16-Feb-2025,2025-02-16,date_normalised
+S0072,date,17-Feb-2025,2025-02-17,date_normalised
+S0073,lat,"6°50'1.1""N",6.833639,dms_converted
+S0073,lon,80d17m55.8sE,80.298833,dms_converted
+S0074,lat,"8,382773",8.382773,decimal_comma
+S0074,lon,"81,303110",81.30311,decimal_comma
+S0074,date,18/05/2025,2025-05-18,date_normalised
+S0075,category,WATER POINT,Water Point,category_standardised
+S0075,date,07/01/2025,2025-01-07,date_normalised
+S0076,date,06/05/2025,2025-05-06,date_normalised
+S0077,date,22-Jul-2025,2025-07-22,date_normalised
+S0078,date,05/12/2025,2025-12-05,date_normalised
+S0079,lat/lon,"81.564082,7.813972","7.813972,81.564082",swapped_lat_lon
+S0080,date,20/06/2025,2025-06-20,date_normalised
+S0081,lat,6 20 47.5 N,6.346528,dms_converted
+S0081,lon,80 21 40.3 E,80.361194,dms_converted
+S0081,category,HEALTH POST,Health Post,category_standardised
+S0082,date,06/07/2025,2025-07-06,date_normalised
+S0083,category,HEALTH POST,Health Post,category_standardised
+S0084,lat,"9°44'43.8""N",9.7455,dms_converted
+S0084,lon,80 8 21.7 E,80.139361,dms_converted
+S0084,date,05/11/2025,2025-11-05,date_normalised
+S0085,date,1-Feb-2025,2025-02-01,date_normalised
+S0087,date,18/09/2025,2025-09-18,date_normalised
+S0088,category,PLACE OF WORSHIP,Place of Worship,category_standardised
+S0088,date,03/09/2025,2025-09-03,date_normalised
+S0090,date,08/09/2025,2025-09-08,date_normalised
+S0091,lat,"7,844823",7.844823,decimal_comma
+S0091,lon,"80,713308",80.713308,decimal_comma
+S0093,category,Scool,School,category_standardised
+S0093,date,9-Jun-2025,2025-06-09,date_normalised
+S0095,category,Watter Point,Water Point,category_standardised
+S0095,date,27/06/2025,2025-06-27,date_normalised
+S0096,date,27-Jul-2025,2025-07-27,date_normalised
+S0097,category,COMMUNITY HALL,Community Hall,category_standardised
+S0098,category,Comm. Hall,Community Hall,category_standardised
+S0098,date,10/06/2025,2025-06-10,date_normalised
+S0100,date,07/10/2025,2025-10-07,date_normalised
+S0101,lat/lon,"81.857923,7.155254","7.155254,81.857923",swapped_lat_lon
+S0101,category,water point,Water Point,category_standardised
+S0101,date,15-Dec-2025,2025-12-15,date_normalised
+S0102,date,27/05/2025,2025-05-27,date_normalised
+S0105,date,16/10/2025,2025-10-16,date_normalised
+S0106,date,14/12/2025,2025-12-14,date_normalised
+S0107,date,20/09/2025,2025-09-20,date_normalised
+S0108,lat,"6°4'39.6""N",6.077667,dms_converted
+S0108,lon,"80°46'50.7""E",80.78075,dms_converted
+S0108,date,06/06/2025,2025-06-06,date_normalised
+S0109,date,22/11/2025,2025-11-22,date_normalised
+S0112,date,12-Mar-2025,2025-03-12,date_normalised
+S0113,category,Schol,School,category_standardised
+S0113,date,4-Feb-2025,2025-02-04,date_normalised
+S0114,date,15/06/2025,2025-06-15,date_normalised
+S0116,date,2-May-2025,2025-05-02,date_normalised
+S0117,category,HEALTH POST,Health Post,category_standardised
+S0117,date,04/11/2025,2025-11-04,date_normalised
+S0118,lat/lon,"81.341541,6.867385","6.867385,81.341541",swapped_lat_lon
+S0118,date,08/12/2025,2025-12-08,date_normalised
+S0119,category,Comm. Hall,Community Hall,category_standardised
+S0119,date,08/08/2025,2025-08-08,date_normalised
+S0120,lat/lon,"80.865631,7.038701","7.038701,80.865631",swapped_lat_lon
+S0120,category,Comm. Hall,Community Hall,category_standardised
+S0120,date,01/07/2025,2025-07-01,date_normalised
+S0121,lat,"7,727913",7.727913,decimal_comma
+S0121,lon,"80,898915",80.898915,decimal_comma
+S0122,category,community hall,Community Hall,category_standardised
+S0122,date,04/10/2025,2025-10-04,date_normalised
+S0123,category,COMMUNITY HALL,Community Hall,category_standardised
+S0124,date,11/11/2025,2025-11-11,date_normalised
+S0126,date,23-Nov-2025,2025-11-23,date_normalised
+S0127,lat,"8,239479",8.239479,decimal_comma
+S0127,lon,"80,524764",80.524764,decimal_comma
+S0128,lat/lon,"80.981811,7.553791","7.553791,80.981811",swapped_lat_lon
+S0128,date,12/03/2025,2025-03-12,date_normalised
+S0129,date,05/10/2025,2025-10-05,date_normalised
+S0130,lat/lon,"80.038432,6.807458","6.807458,80.038432",swapped_lat_lon
+S0130,category,Place of Worhsip,Place of Worship,category_standardised
+S0131,category,Hlth Post,Health Post,category_standardised
+S0131,date,2-Oct-2025,2025-10-02,date_normalised
+S0132,lat/lon,"80.043432,7.005797","7.005797,80.043432",swapped_lat_lon
+S0133,date,14/08/2025,2025-08-14,date_normalised
+S0135,category,Place of Worhsip,Place of Worship,category_standardised
+S0136,category,Worship Place,Place of Worship,category_standardised
+S0136,date,24/10/2025,2025-10-24,date_normalised
+S0140,category,Helth Post,Health Post,category_standardised
+S0140,date,28-May-2025,2025-05-28,date_normalised
+S0141,category,health post,Health Post,category_standardised
+S0141,date,28-Aug-2025,2025-08-28,date_normalised
+S0142,category,PLACE OF WORSHIP,Place of Worship,category_standardised
+S0142,date,20/12/2025,2025-12-20,date_normalised
+S0147,date,2-Jul-2025,2025-07-02,date_normalised
+S0148,lat,6d42m23.9sN,6.706639,dms_converted
+S0148,lon,"80°46'19.5""E",80.772083,dms_converted
+S0148,category,HEALTH POST,Health Post,category_standardised
+S0148,date,25-Apr-2025,2025-04-25,date_normalised
+S0149,lat,8 31 14.2 N,8.520611,dms_converted
+S0149,lon,"80°57'19.3""E",80.955361,dms_converted
+S0150,lat,"8,786992",8.786992,decimal_comma
+S0150,lon,"80,371586",80.371586,decimal_comma
+S0150,category,health post,Health Post,category_standardised
+S0150,date,17/07/2025,2025-07-17,date_normalised
+S0151,date,11/08/2025,2025-08-11,date_normalised
+S0152,date,21/08/2025,2025-08-21,date_normalised
+S0153,lat,"7,326327",7.326327,decimal_comma
+S0153,lon,"81,202630",81.20263,decimal_comma
+S0155,date,05/10/2025,2025-10-05,date_normalised
+S0158,lat,6 18 1.6 N,6.300444,dms_converted
+S0158,lon,81 22 26.9 E,81.374139,dms_converted
+S0158,category,Worship Place,Place of Worship,category_standardised
+S0158,date,23-Apr-2025,2025-04-23,date_normalised
+S0159,category,SCHOOL,School,category_standardised
+S0161,date,14/04/2025,2025-04-14,date_normalised
+S0162,category,Worship Place,Place of Worship,category_standardised
+S0162,date,05/02/2025,2025-02-05,date_normalised
+S0163,date,01/01/2025,2025-01-01,date_normalised
+S0165,category,Scool,School,category_standardised
+S0168,lat,"6,553441",6.553441,decimal_comma
+S0168,lon,"81,193672",81.193672,decimal_comma
+S0168,category,Place of Worhsip,Place of Worship,category_standardised
+S0168,date,12/08/2025,2025-08-12,date_normalised
+S0170,category,health post,Health Post,category_standardised
+S0171,date,11/07/2025,2025-07-11,date_normalised
+S0172,category,place of worship,Place of Worship,category_standardised
+S0172,date,18/04/2025,2025-04-18,date_normalised
+S0173,lat,"6,308433",6.308433,decimal_comma
+S0173,lon,"80,792029",80.792029,decimal_comma
+S0173,category,place of worship,Place of Worship,category_standardised
+S0176,date,03/10/2025,2025-10-03,date_normalised
+S0179,date,01/02/2025,2025-02-01,date_normalised
+S0180,category,community hall,Community Hall,category_standardised
+S0182,category,Helth Post,Health Post,category_standardised
+S0184,date,22/11/2025,2025-11-22,date_normalised
+S0185,lat,6d37m40.6sN,6.627944,dms_converted
+S0185,lon,80 5 47.3 E,80.096472,dms_converted
+S0186,category,place of worship,Place of Worship,category_standardised
+S0186,date,22/05/2025,2025-05-22,date_normalised
+S0189,date,24-May-2025,2025-05-24,date_normalised
+S0190,date,09/07/2025,2025-07-09,date_normalised
+S0192,date,16-Jan-2025,2025-01-16,date_normalised
+S0194,date,08/02/2025,2025-02-08,date_normalised
+S0195,category,health post,Health Post,category_standardised
+S0196,lat,"8°13'7.1""N",8.218639,dms_converted
+S0196,lon,"81°10'45.0""E",81.179167,dms_converted
+S0196,date,18-Jan-2025,2025-01-18,date_normalised
+S0197,lat,"8°15'17.3""N",8.254806,dms_converted
+S0197,lon,79 58 12.4 E,79.970111,dms_converted
+S0197,category,SCHOOL,School,category_standardised
+S0198,category,place of worship,Place of Worship,category_standardised
+S0198,date,8-Mar-2025,2025-03-08,date_normalised
+S0199,date,15-Feb-2025,2025-02-15,date_normalised
+S0201,category,PLACE OF WORSHIP,Place of Worship,category_standardised
+S0202,date,25/08/2025,2025-08-25,date_normalised
+S0204,category,WATER POINT,Water Point,category_standardised
+S0204,date,27/11/2025,2025-11-27,date_normalised
+S0206,category,Place of Worhsip,Place of Worship,category_standardised
+S0206,date,16-Jul-2025,2025-07-16,date_normalised
+S0207,date,2-Feb-2025,2025-02-02,date_normalised
+S0208,date,15-Jun-2025,2025-06-15,date_normalised
+S0209,lat,9d45m25.3sN,9.757028,dms_converted
+S0209,lon,"80°10'30.3""E",80.175083,dms_converted
+S0210,date,22-Jul-2025,2025-07-22,date_normalised
+S0211,category,PLACE OF WORSHIP,Place of Worship,category_standardised
+S0211,date,23-Jul-2025,2025-07-23,date_normalised
+S0213,category,place of worship,Place of Worship,category_standardised
+S0215,date,9-Aug-2025,2025-08-09,date_normalised
+S0216,lat,"7,673935",7.673935,decimal_comma
+S0216,lon,"80,987235",80.987235,decimal_comma
+S0216,category,WATER POINT,Water Point,category_standardised
+S0216,date,23/12/2025,2025-12-23,date_normalised
+S0219,category,Helth Post,Health Post,category_standardised
+S0219,date,13-Jan-2025,2025-01-13,date_normalised
+S0221,category,Scool,School,category_standardised
+S0222,lat,8 6 40.5 N,8.11125,dms_converted
+S0222,lon,80d4m44.5sE,80.079028,dms_converted
+S0222,date,03/11/2025,2025-11-03,date_normalised
+S0223,date,1-Feb-2025,2025-02-01,date_normalised
+S0225,category,Worship Place,Place of Worship,category_standardised
+S0225,date,6-Jan-2025,2025-01-06,date_normalised
+S0226,lat/lon,"81.055138,7.707876","7.707876,81.055138",swapped_lat_lon
+S0227,category,Comunity Hall,Community Hall,category_standardised
+S0228,category,school ,School,category_standardised
+S0230,category,Helth Post,Health Post,category_standardised
+S0230,date,26/11/2025,2025-11-26,date_normalised
+S0231,lat,6 24 54.4 N,6.415111,dms_converted
+S0231,lon,80d21m6.3sE,80.35175,dms_converted
+S0233,date,26/01/2025,2025-01-26,date_normalised
+S0235,lat/lon,"80.184612,6.735348","6.735348,80.184612",swapped_lat_lon
+S0236,category,water point,Water Point,category_standardised
+S0236,date,19-Apr-2025,2025-04-19,date_normalised
+S0238,lat/lon,"80.41092,9.384116","9.384116,80.41092",swapped_lat_lon
+S0238,date,12-Dec-2025,2025-12-12,date_normalised
+S0239,date,19/06/2025,2025-06-19,date_normalised
+S0240,lat,"8°47'14.1""N",8.78725,dms_converted
+S0240,lon,80 7 56.5 E,80.132361,dms_converted
+S0241,category,school ,School,category_standardised
+S0247,lat,7d44m5.6sN,7.734889,dms_converted
+S0247,lon,79 55 12.9 E,79.92025,dms_converted
+S0248,lat,6d36m56.9sN,6.615806,dms_converted
+S0248,lon,80d48m0.9sE,80.80025,dms_converted
+S0248,date,22/04/2025,2025-04-22,date_normalised
+S0250,lat,"8,729876",8.729876,decimal_comma
+S0250,lon,"80,247327",80.247327,decimal_comma
+S0251,category,PLACE OF WORSHIP,Place of Worship,category_standardised
+S0251,date,08/10/2025,2025-10-08,date_normalised
+S0252,date,11/03/2025,2025-03-11,date_normalised
+S0253,date,06/06/2025,2025-06-06,date_normalised
+S0254,date,21/11/2025,2025-11-21,date_normalised
+S0255,lat,6 56 41.6 N,6.944889,dms_converted
+S0255,lon,"79°50'22.1""E",79.839472,dms_converted
+S0255,category,school ,School,category_standardised
+S0257,date,16-Jul-2025,2025-07-16,date_normalised
+S0260,lat,"6,557770",6.55777,decimal_comma
+S0260,lon,"80,044643",80.044643,decimal_comma
+S0261,name,Nuga Halpe Health Post ,Nuga Halpe Health Post,name_whitespace_trimmed
+S0262,date,11/02/2025,2025-02-11,date_normalised
+S0263,date,14-Jan-2025,2025-01-14,date_normalised
+S0263,name,Kotuwa Ihala Temple ,Kotuwa Ihala Temple,name_whitespace_trimmed
+S0265,date,18/12/2025,2025-12-18,date_normalised
+S0265,name,Gal Oya Pahala Health Post ,Gal Oya Pahala Health Post,name_whitespace_trimmed
+S0267,name,Weli Uduwela Community Hall ,Weli Uduwela Community Hall,name_whitespace_trimmed
+S0268,date,21/11/2025,2025-11-21,date_normalised
+S0269,name,Pitiya Ihala Health Post ,Pitiya Ihala Health Post,name_whitespace_trimmed
+S0271,date,21/02/2025,2025-02-21,date_normalised
+S0271,name,Medagama Palle Vidyalaya ,Medagama Palle Vidyalaya,name_whitespace_trimmed
+S0273,name,Gal Oya Bogaha Community Hall ,Gal Oya Bogaha Community Hall,name_whitespace_trimmed
+S0275,date,08/10/2025,2025-10-08,date_normalised
+S0275,name,Mahawela Kele Tube Well ,Mahawela Kele Tube Well,name_whitespace_trimmed
+S0276,date,18/07/2025,2025-07-18,date_normalised
+S0261,record,,,duplicate_removed
+S0262,record,,,duplicate_removed
+S0263,record,,,duplicate_removed
+S0264,record,,,duplicate_removed
+S0265,record,,,duplicate_removed
+S0266,record,,,duplicate_removed
+S0267,record,,,duplicate_removed
+S0268,record,,,duplicate_removed
+S0269,record,,,duplicate_removed
+S0270,record,,,duplicate_removed
+S0271,record,,,duplicate_removed
+S0272,record,,,duplicate_removed
+S0273,record,,,duplicate_removed
+S0274,record,,,duplicate_removed
+S0275,record,,,duplicate_removed
+S0276,record,,,duplicate_removed

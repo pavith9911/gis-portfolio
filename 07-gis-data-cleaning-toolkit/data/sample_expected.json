@@ -1,0 +1,11 @@
+{
+  "input_rows": 276,
+  "rejected_missing_coordinates": 9,
+  "rejected_outside_sri_lanka": 7,
+  "rejected_duplicates": 16,
+  "kept_rows": 244,
+  "dms_converted": 22,
+  "swapped_lat_lon": 14,
+  "decimal_comma": 12,
+  "category_standardised_at_least": 75
+}

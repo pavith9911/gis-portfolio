@@ -1,0 +1,48 @@
+:root { --ink: #f4f7fb; --muted: #aab6c8; --accent: #7dd3fc; --warm: #fbbf24; font-family: "Sora", system-ui, -apple-system, "Segoe UI", sans-serif; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; background: #05080f; color: var(--ink); overflow: hidden; }
+.stage { position: fixed; inset: 0; }
+#map { position: absolute; inset: 0; }
+button, select, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* divider */
+.handle { position: absolute; z-index: 1000; top: 0; bottom: 0; width: 44px; margin-left: -22px; cursor: ew-resize; touch-action: none; display: grid; place-items: center; }
+.handle::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 3px; margin-left: -1.5px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, .6); }
+.grip { position: relative; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: #fff; color: #0b1220; font-size: 20px; box-shadow: 0 2px 14px rgba(0, 0, 0, .55); }
+.handle:focus-visible .grip { outline: 3px solid var(--accent); }
+
+.tag { position: absolute; z-index: 900; top: 14px; padding: 6px 12px; border-radius: 999px; background: rgba(8, 13, 24, .72); backdrop-filter: blur(8px); font-size: 13px; font-weight: 600; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }
+.tag-l { left: 14px; border: 1.5px solid var(--accent); }
+.tag-r { right: 14px; border: 1.5px solid var(--warm); }
+
+/* glass panel */
+.glass { position: absolute; z-index: 1100; left: 14px; top: 58px; width: 320px; max-width: calc(100vw - 28px); background: rgba(10, 16, 30, .62); backdrop-filter: blur(16px) saturate(1.4); -webkit-backdrop-filter: blur(16px) saturate(1.4); border: 1px solid rgba(255, 255, 255, .16); border-radius: 18px; padding: 14px 16px 14px; box-shadow: 0 10px 40px rgba(0, 0, 0, .45); }
+.fold { position: absolute; right: 10px; top: 10px; width: 32px; height: 32px; border-radius: 10px; background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .2); }
+.body[hidden] { display: none; }
+.glass h1 { margin: 0 40px 2px 0; font-size: 21px; font-weight: 700; letter-spacing: -.01em; }
+.glass h1 em { font-style: normal; color: var(--accent); }
+.lead { margin: 0 0 10px; font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+.glass label { display: grid; gap: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); margin-bottom: 9px; }
+.glass select, .glass input[type=date] { width: 100%; padding: 8px 10px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, .22); background: rgba(5, 8, 15, .55); font-size: 13.5px; text-transform: none; letter-spacing: 0; color-scheme: dark; }
+.dates { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 2px 0 8px; }
+.cap { display: flex; align-items: center; gap: 6px; font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); margin-bottom: 4px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; } .dot.l { background: var(--accent); } .dot.r { background: var(--warm); }
+.dates input { padding: 7px 8px; font-size: 13px; }
+.step { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 6px; }
+.step button, .row button { background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .2); border-radius: 9px; padding: 5px; font-size: 14px; }
+.step button:hover, .row button:hover { background: rgba(255, 255, 255, .2); }
+.row { display: grid; grid-template-columns: auto 1fr; gap: 8px; }
+.row button { font-size: 12.5px; padding: 7px 10px; }
+.note { margin: 10px 0 6px; font-size: 11.5px; color: var(--muted); line-height: 1.5; }
+.credit { margin: 0; font-size: 10.5px; color: #7f8da3; line-height: 1.45; }
+.leaflet-container { font-family: inherit; }
+.leaflet-control-attribution { background: rgba(8, 13, 24, .6) !important; color: #aab6c8 !important; } .leaflet-control-attribution a { color: #cbd5e1 !important; }
+.leaflet-bar a { background: rgba(10, 16, 30, .75); color: #fff; border-color: rgba(255, 255, 255, .2); }
+
+@media (max-width: 600px) {
+  .glass { top: auto; bottom: 36px; left: 8px; right: 8px; width: auto; max-height: 52vh; overflow-y: auto; }
+  .tag { top: 8px; font-size: 12px; }
+  .leaflet-bottom.leaflet-left { display: none; }
+}

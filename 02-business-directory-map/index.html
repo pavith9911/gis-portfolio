@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lanka Local | Business Directory Map (sample)</title>
+  <meta name="description" content="Sample interactive business directory map with search, filters, clustering and an add-a-place form.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="logo" aria-hidden="true">L</span><div><b>Lanka Local</b><small>Sample business directory</small></div></div>
+    <div class="search">
+      <input id="q" type="search" placeholder="Search name, category, city or street" aria-label="Search places" autocomplete="off">
+    </div>
+    <div class="top-actions">
+      <button id="near" class="ghost" type="button">Near me</button>
+      <button id="add" class="primary" type="button">+ Add a place</button>
+    </div>
+  </header>
+
+  <div class="filters">
+    <div id="chips" class="chips" role="group" aria-label="Categories"></div>
+    <div class="opts">
+      <label>Price
+        <select id="price"><option value="3">Any</option><option value="1">Budget</option><option value="2">Up to mid</option></select>
+      </label>
+      <label class="tog"><input type="checkbox" id="open"> Open now</label>
+      <label class="tog"><input type="checkbox" id="inview" checked> Only in map view</label>
+      <label>Sort
+        <select id="sort"><option value="rating">Top rated</option><option value="reviews">Most reviewed</option><option value="name">Name A-Z</option><option value="dist">Nearest</option></select>
+      </label>
+    </div>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button id="tab-list" role="tab" aria-selected="true" type="button">List</button>
+    <button id="tab-map" role="tab" aria-selected="false" type="button">Map</button>
+  </div>
+
+  <main class="split" id="split" data-view="list">
+    <section class="list-pane" aria-label="Results">
+      <div class="count" id="count" aria-live="polite"></div>
+      <ul id="list" class="cards"></ul>
+    </section>
+    <section class="map-pane"><div id="map" role="application" aria-label="Map of places"></div></section>
+  </main>
+
+  <div id="modal" class="modal" hidden>
+    <form id="form" class="sheet" novalidate>
+      <h2>Add a place</h2>
+      <p class="hint" id="pick-hint">1. Click the map to drop a pin, then fill in the details.</p>
+      <label>Name<input name="name" required maxlength="60"></label>
+      <div class="two">
+        <label>Category<select name="category" id="f-cat"></select></label>
+        <label>Price<select name="price"><option value="1">Budget</option><option value="2">Mid</option><option value="3">Premium</option></select></label>
+      </div>
+      <label>Address<input name="address" maxlength="90"></label>
+      <p class="hint" id="coords">No location picked yet.</p>
+      <div class="row">
+        <button type="button" class="ghost" id="cancel">Cancel</button>
+        <button type="submit" class="primary">Save place</button>
+      </div>
+      <p class="hint">Places you add are saved in this browser only. <button type="button" class="link" id="export">Export my places (JSON)</button></p>
+    </form>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data/places.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

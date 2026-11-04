@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuakeWatch | Live Earthquake Dashboard</title>
+  <meta name="description" content="Live global earthquake map and dashboard using the USGS GeoJSON feeds. Auto-refreshing, with filters and charts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="title"><span class="pulse" id="pulse" aria-hidden="true"></span><h1>QUAKE<em>WATCH</em></h1></div>
+    <div class="controls">
+      <label>Feed
+        <select id="feed">
+          <option value="all_day">All quakes, past 24 h</option>
+          <option value="2.5_week" selected>M2.5+, past 7 days</option>
+          <option value="4.5_month">M4.5+, past 30 days</option>
+          <option value="significant_month">Significant, past 30 days</option>
+        </select>
+      </label>
+      <label>Min magnitude <output id="mag-out">0.0</output>
+        <input id="mag" type="range" min="0" max="7" step="0.5" value="0">
+      </label>
+      <button id="region" type="button">Sri Lanka region</button>
+      <button id="world" type="button">World</button>
+    </div>
+    <div class="status"><span id="updated">Loading...</span><button id="refresh" type="button" aria-label="Refresh now">&#8635;</button>
+      <label class="live"><input type="checkbox" id="live" checked> Live <span id="count">60</span>s</label></div>
+  </header>
+
+  <section class="kpis" id="kpis" aria-live="polite"></section>
+
+  <main class="grid">
+    <div class="mapbox"><div id="map" role="application" aria-label="Earthquake map"></div>
+      <div class="legend" id="legend"></div></div>
+    <aside class="feedbox">
+      <div class="feed-head"><h2>Events</h2>
+        <select id="sort" aria-label="Sort events"><option value="time">Newest</option><option value="mag">Largest</option><option value="depth">Shallowest</option></select></div>
+      <ol id="events" class="events"></ol>
+    </aside>
+  </main>
+
+  <section class="charts">
+    <figure><figcaption>Magnitude distribution</figcaption><canvas id="c-mag" height="150"></canvas></figure>
+    <figure><figcaption id="tl-cap">Events over time</figcaption><canvas id="c-time" height="150"></canvas></figure>
+  </section>
+
+  <footer>Data: USGS Earthquake Hazards Program real-time GeoJSON feeds. Basemap &copy; OpenStreetMap contributors &copy; CARTO. <span id="src"></span></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

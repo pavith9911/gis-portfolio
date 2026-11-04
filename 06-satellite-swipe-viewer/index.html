@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orbit Compare | Before/After Satellite Swipe Viewer</title>
+  <meta name="description" content="Compare daily satellite imagery from two dates side by side with a swipe slider. NASA GIBS imagery, no sign-in needed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div id="map" role="application" aria-label="Satellite imagery comparison map"></div>
+
+    <div class="tag tag-l" id="tag-l"></div>
+    <div class="tag tag-r" id="tag-r"></div>
+
+    <div class="handle" id="handle" role="slider" tabindex="0" aria-label="Swipe divider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+      <span class="grip" aria-hidden="true">&#8644;</span>
+    </div>
+
+    <aside class="glass" id="panel">
+      <button class="fold" id="fold" type="button" aria-expanded="true" aria-controls="body">&#9776;</button>
+      <div class="body" id="body">
+        <h1>Orbit <em>Compare</em></h1>
+        <p class="lead">Drag the divider to compare two dates of daily satellite imagery.</p>
+
+        <label>Imagery
+          <select id="layer"></select>
+        </label>
+        <label>Go to
+          <select id="place"></select>
+        </label>
+
+        <div class="dates">
+          <div class="d">
+            <span class="cap">Before <i class="dot l"></i></span>
+            <input type="date" id="d-l" aria-label="Before date">
+            <div class="step"><button type="button" data-side="l" data-d="-1" aria-label="Previous day">&lsaquo;</button><button type="button" data-side="l" data-d="1" aria-label="Next day">&rsaquo;</button></div>
+          </div>
+          <div class="d">
+            <span class="cap">After <i class="dot r"></i></span>
+            <input type="date" id="d-r" aria-label="After date">
+            <div class="step"><button type="button" data-side="r" data-d="-1" aria-label="Previous day">&lsaquo;</button><button type="button" data-side="r" data-d="1" aria-label="Next day">&rsaquo;</button></div>
+          </div>
+        </div>
+        <div class="row">
+          <button type="button" id="swap">Swap sides</button>
+          <button type="button" id="yearago">Same day, 1 year apart</button>
+        </div>
+        <p class="note" id="note"></p>
+        <p class="credit">Imagery: NASA EOSDIS Global Imagery Browse Services (GIBS). Labels &copy; OpenStreetMap contributors &copy; CARTO.</p>
+      </div>
+    </aside>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

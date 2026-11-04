@@ -1,0 +1,277 @@
+record_id,site_name,category,lat,lon,surveyed_on,notes
+S0001,Weli Uduwela Temple,Place of Worship,7.341987,81.641561,2025-09-17,
+S0002,Ratmal Pitiya Vidyalaya,School,8.373912,80.179165,2025-08-09,
+S0003,Nuga Wewa Community Hall,Community Hall,N/A,N/A,15/12/2025,
+S0004,Pitiya Ihala Health Post,HEALTH POST,7.695018,81.636204,19/05/2025,
+S0005,Madiha Siyambala Tube Well,Watter Point,6.807148,79.966592,2025-07-17,needs revisit
+S0006,Uduwela Pitiya Tube Well,Water Point,80.136935,6.264861,2025-03-05,
+S0007,Nuga Ambalam Vidyalaya,Schol,7.029411,79.907248,15/04/2025,checked
+S0008,Gal Oya Palle Tube Well,Water Point,6.247673,81.026139,2025-12-19,checked
+S0009,Thotupola Kanda Vidyalaya,School,9.710996,80.159729,2025-01-22,checked
+S0010,Wewa Kele Health Post,HEALTH POST,6.688834,79.971542,04/12/2025,checked
+S0011,Nuga Madiha Vidyalaya,School,7.362341,80.614624,8-Apr-2025,needs revisit
+S0012,Kanda Mawatha Health Post,HEALTH POST,72.363395,80.373574,23/07/2025,needs revisit
+S0013,Siyambala Ratmal Health Post,Health Post,"9,336672","80,310334",2025-11-27,
+S0014,Uduwela Kele Community Hall,Community Hall,79.594460,80.265427,28/10/2025,
+S0015,Ambalam Kotuwa Vidyalaya,School,8.874864,79.979059,2025-12-12,
+S0016,Thotupola Weli Community Hall,Comunity Hall,7.881426,80.809096,2025-10-18,checked
+S0017,Godagama Bogaha Community Hall,Community Hall,6.203835,80.510514,04/08/2025,
+S0018,Kanda Ihala Tube Well,Water Point,6.919960,81.379504,15-Sep-2025,needs revisit
+S0019,Halpe Siyambala Community Hall,Comm. Hall,9.164382,80.263015,2025-08-19,needs revisit
+S0020,Kanda Mahawela Vidyalaya,School,6.844435,80.698812,2025-05-24,checked
+S0021,Kotuwa Palle Health Post,Health Post,8.001349,81.246585,07/12/2025,
+S0022,Halpe Thotupola Temple,Place of Worship,7.967271,80.043755,03/12/2025,
+S0023,Nuga Uduwela Vidyalaya,School,6.444182,80.822036,2025-02-16,needs revisit
+S0024,Diya Pitiya Temple,Place of Worhsip,81.113121,8.372443,24/11/2025,needs revisit
+S0025,Medagama Mahawela Health Post,Health Post,8.984054,80.743140,15-Jul-2025,needs revisit
+S0026,Ambalam Nuga Community Hall,Community Hall,7 36 56.6 N,"81°18'52.0""E",28/11/2025,checked
+S0027,Ratmal Nuga Temple,Worship Place,8.189246,80.185461,05/09/2025,
+S0028,Uduwela Mawatha Temple,Place of Worship,,,2025-01-10,
+S0029,Pitiya Ambalam Community Hall,Community Hall,7.810486,81.368125,2025-07-27,needs revisit
+S0030,Pahala Kanda Vidyalaya,School,6.839762,79.992431,7-May-2025,
+S0031,Nuga Pitiya Vidyalaya,Schol,6.126847,80.192532,25-Oct-2025,
+S0032,Gal Oya Bogaha Community Hall,community hall,7.096764,79.892323,2025-02-20,
+S0033,Weli Nuga Vidyalaya,School,6.300677,81.325359,08/01/2025,needs revisit
+S0034,Pahala Medagama Temple,Place of Worship,9.819823,80.208296,07/09/2025,
+S0035,Madiha Uduwela Health Post,HEALTH POST,N/A,N/A,27-Apr-2025,
+S0036,Gal Oya Madiha Temple,Place of Worship,7.445582,80.705212,25/10/2025,checked
+S0037,Kele Ambalam Health Post,Helth Post,7.166790,80.219887,2025-11-17,checked
+S0038,Pitiya Pahala Tube Well,Water Pt,9.361490,80.370223,2025-11-22,needs revisit
+S0039,Kotuwa Pahala Community Hall,COMMUNITY HALL,7.482126,80.385578,2025-11-22,
+S0040,Halpe Wewa Vidyalaya,School,8.848916,80.228586,2025-07-14,needs revisit
+S0041,Bogaha Kotuwa Temple,Place of Worship,"7°43'17.9""N",80d32m45.2sE,10-Apr-2025,
+S0042,Wewa Ratmal Health Post,Health Post,6.095634,80.682107,2025-01-18,needs revisit
+S0043,Halpe Pahala Temple,Place of Worship,7.006770,81.397164,2025-03-13,
+S0044,Kotuwa Bogaha Vidyalaya,School,9.093575,80.819695,15-Feb-2025,
+S0045,Pitiya Medagama Temple,Place of Worship,6.893438,80.726868,2025-04-02,
+S0046,Godagama Mawatha Tube Well,Water Point,8.126873,80.952299,7-Feb-2025,
+S0047,Madiha Halpe Tube Well,Water Point,8.090838,79.716367,2025-09-07,checked
+S0048,Halpe Ambalam Temple,Place of Worship,6.724084,80.518748,7-Jan-2025,
+S0049,Palle Pitiya Vidyalaya,School,8d54m24.6sN,80 57 17.7 E,20/12/2025,needs revisit
+S0050,Ratmal Diya Tube Well,Water Point,"8°55'58.2""N",80d35m27.0sE,2025-05-13,checked
+S0051,Gal Oya Diya Health Post,Health Post,6.801713,81.812113,17-Jun-2025,needs revisit
+S0052,Bogaha Gal Oya Health Post,Hlth Post,8.769927,80.785522,2025-06-07,needs revisit
+S0053,Nuga Halpe Health Post,Helth Post,6.872522,81.004310,2025-12-05,
+S0054,Weli Bogaha Tube Well,Water Point,7.745665,81.613760,2025-10-24,
+S0055,Ihala Halpe Temple,Place of Worhsip,6.850993,79.963458,19-Jul-2025,needs revisit
+S0056,Diya Thotupola Tube Well,Water Point,80.208758,6.312516,2025-11-11,needs revisit
+S0057,Medagama Diya Vidyalaya,School,6.987403,80.173204,2025-11-24,
+S0058,Diya Weli Tube Well,Water Point,6.379742,81.424145,2025-06-06,
+S0059,Mahawela Pahala Temple,Place of Worship,9.798118,79.994356,21-Sep-2025,
+S0060,Ratmal Kotuwa Tube Well,water point,6.525798,80.088746,02/11/2025,needs revisit
+S0061,Pahala Siyambala Community Hall,Comunity Hall,7.305376,80.535953,2025-02-23,
+S0062,Kele Ratmal Tube Well,Water Point,80.508831,7.178381,02/06/2025,
+S0063,Wewa Pahala Community Hall,Community Hall,9.364324,80.393550,2025-11-16,
+S0064,Pahala Weli Health Post,HEALTH POST,7d42m8.4sN,80 2 41.6 E,2025-09-10,needs revisit
+S0065,Ihala Weli Temple,Place of Worship,8.996655,80.050623,4-Mar-2025,
+S0066,Kotuwa Halpe Health Post,Helth Post,7.525074,80.831725,2025-10-17,checked
+S0067,Diya Kanda Community Hall,Comm. Hall,6.286338,80.589112,12-Feb-2025,needs revisit
+S0068,Mawatha Kele Community Hall,Community Hall,,,2025-12-08,
+S0069,Ambalam Diya Vidyalaya,School,9.280118,80.367504,2025-11-25,needs revisit
+S0070,Nuga Ambalam Temple,Place of Worship,6.993960,80.802921,2025-09-16,
+S0071,Ratmal Thotupola Temple,Place of Worship,8.206389,81.019312,16-Feb-2025,checked
+S0072,Thotupola Siyambala Community Hall,Community Hall,8.248336,79.838957,17-Feb-2025,
+S0073,Bogaha Nuga Community Hall,Community Hall,"6°50'1.1""N",80d17m55.8sE,2025-08-09,
+S0074,Mawatha Kanda Temple,Place of Worship,"8,382773","81,303110",18/05/2025,
+S0075,Nuga Bogaha Tube Well,WATER POINT,8.801126,80.317615,07/01/2025,needs revisit
+S0076,Kotuwa Kotuwa Vidyalaya,School,7.607637,81.280599,06/05/2025,
+S0077,Weli Diya Health Post,Health Post,8.582121,80.192281,22-Jul-2025,checked
+S0078,Madiha Pitiya Community Hall,Community Hall,7.129648,80.978169,05/12/2025,
+S0079,Mahawela Kele Tube Well,Water Point,81.564082,7.813972,2025-06-02,
+S0080,Ratmal Siyambala Community Hall,Community Hall,6.968659,80.164379,20/06/2025,
+S0081,Mawatha Nuga Health Post,HEALTH POST,6 20 47.5 N,80 21 40.3 E,2025-08-16,
+S0082,Ihala Pahala Community Hall,Community Hall,7.112427,79.925082,06/07/2025,needs revisit
+S0083,Thotupola Ratmal Health Post,HEALTH POST,6.256173,80.789549,2025-04-23,checked
+S0084,Bogaha Diya Community Hall,Community Hall,"9°44'43.8""N",80 8 21.7 E,05/11/2025,checked
+S0085,Pitiya Halpe Health Post,Health Post,6.701362,80.208967,1-Feb-2025,needs revisit
+S0086,Thotupola Siyambala Temple,Place of Worship,7.142261,80.574209,2025-05-04,
+S0087,Mahawela Ambalam Health Post,Health Post,7.270230,80.434498,18/09/2025,
+S0088,Ambalam Uduwela Temple,PLACE OF WORSHIP,9.354363,80.444520,03/09/2025,checked
+S0089,Pahala Palle Community Hall,Community Hall,7.584024,80.430627,2025-01-10,
+S0090,Ambalam Diya Community Hall,Community Hall,8.822342,79.917225,08/09/2025,
+S0091,Thotupola Ratmal Tube Well,Water Point,"7,844823","80,713308",2025-03-05,checked
+S0092,Bogaha Ihala Temple,Place of Worship,6.141210,80.645801,2025-02-06,needs revisit
+S0093,Bogaha Wewa Vidyalaya,Scool,7.261309,81.517036,9-Jun-2025,needs revisit
+S0094,Pahala Kele Temple,Place of Worship,,,2025-04-15,checked
+S0095,Gal Oya Mawatha Tube Well,Watter Point,7.009522,80.611299,27/06/2025,checked
+S0096,Bogaha Thotupola Tube Well,Water Point,8.203887,80.875151,27-Jul-2025,
+S0097,Ratmal Nuga Community Hall,COMMUNITY HALL,8.202537,79.732382,2025-10-23,checked
+S0098,Wewa Halpe Community Hall,Comm. Hall,6.682070,80.712294,10/06/2025,needs revisit
+S0099,Palle Mawatha Temple,Place of Worship,8.407132,81.206121,2025-04-11,needs revisit
+S0100,Ihala Palle Temple,Place of Worship,8.745379,80.511493,07/10/2025,
+S0101,Ambalam Pitiya Tube Well,water point,81.857923,7.155254,15-Dec-2025,
+S0102,Halpe Medagama Tube Well,Water Point,8.214413,80.259800,27/05/2025,needs revisit
+S0103,Ratmal Mahawela Vidyalaya,School,0,0,2025-03-21,checked
+S0104,Madiha Bogaha Health Post,Health Post,77.822079,81.501475,14/12/2025,
+S0105,Nuga Godagama Temple,Place of Worship,6.876674,80.128777,16/10/2025,
+S0106,Mahawela Uduwela Community Hall,Community Hall,6.245726,80.139055,14/12/2025,checked
+S0107,Pitiya Kanda Vidyalaya,School,7.164874,80.062927,20/09/2025,
+S0108,Gal Oya Halpe Vidyalaya,School,"6°4'39.6""N","80°46'50.7""E",06/06/2025,
+S0109,Mahawela Madiha Community Hall,Community Hall,9.718272,80.197907,22/11/2025,checked
+S0110,Weli Pahala Community Hall,Community Hall,6.677771,80.001349,2025-07-04,checked
+S0111,Pahala Pitiya Temple,Place of Worhsip,N/A,N/A,2025-08-12,
+S0112,Bogaha Kotuwa Health Post,Health Post,7.138222,80.316331,12-Mar-2025,needs revisit
+S0113,Wewa Medagama Vidyalaya,Schol,9.348110,80.372464,4-Feb-2025,
+S0114,Godagama Ratmal Tube Well,Water Point,7.635955,80.106174,15/06/2025,
+S0115,Thotupola Bogaha Tube Well,Water Point,8.830900,79.930612,2025-08-04,needs revisit
+S0116,Mawatha Godagama Health Post,Health Post,7.863232,80.783547,2-May-2025,
+S0117,Uduwela Diya Health Post,HEALTH POST,6.356883,80.603074,04/11/2025,
+S0118,Mawatha Palle Vidyalaya,School,81.341541,6.867385,08/12/2025,
+S0119,Medagama Mawatha Community Hall,Comm. Hall,9.021111,80.257529,08/08/2025,
+S0120,Weli Ihala Community Hall,Comm. Hall,80.865631,7.038701,01/07/2025,
+S0121,Godagama Halpe Community Hall,Community Hall,"7,727913","80,898915",2025-07-13,
+S0122,Madiha Pitiya Community Hall,community hall,7.971457,79.995524,04/10/2025,
+S0123,Kanda Wewa Community Hall,COMMUNITY HALL,6.665712,80.578346,2025-04-15,needs revisit
+S0124,Kotuwa Mahawela Temple,Place of Worship,8.320600,81.250794,11/11/2025,
+S0125,Halpe Kanda Vidyalaya,School,8.950985,80.440318,2025-02-12,needs revisit
+S0126,Godagama Medagama Tube Well,Water Point,7.123005,81.727761,23-Nov-2025,
+S0127,Godagama Siyambala Temple,Place of Worship,"8,239479","80,524764",2025-11-05,
+S0128,Bogaha Halpe Temple,Place of Worship,80.981811,7.553791,12/03/2025,
+S0129,Uduwela Pahala Temple,Place of Worship,7.658744,81.391592,05/10/2025,needs revisit
+S0130,Ratmal Kele Temple,Place of Worhsip,80.038432,6.807458,2025-09-06,
+S0131,Medagama Nuga Health Post,Hlth Post,6.118488,80.219315,2-Oct-2025,
+S0132,Madiha Ihala Community Hall,Community Hall,80.043432,7.005797,2025-04-27,
+S0133,Kele Pahala Community Hall,Community Hall,6.400779,81.427176,14/08/2025,needs revisit
+S0134,Weli Mawatha Health Post,Health Post,9.787084,80.008359,2025-08-16,
+S0135,Medagama Kele Temple,Place of Worhsip,6.457246,80.273073,2025-05-02,
+S0136,Kele Ihala Temple,Worship Place,7.408323,80.808003,24/10/2025,needs revisit
+S0137,Ratmal Madiha Community Hall,Community Hall,7.332290,80.397600,2025-02-19,
+S0138,Nuga Siyambala Tube Well,Water Point,,,18-Jun-2025,
+S0139,Wewa Gal Oya Vidyalaya,School,7.918953,80.415531,2025-08-18,needs revisit
+S0140,Nuga Godagama Health Post,Helth Post,8.790011,80.055337,28-May-2025,needs revisit
+S0141,Gal Oya Gal Oya Health Post,health post,7.812171,80.701614,28-Aug-2025,
+S0142,Kotuwa Nuga Temple,PLACE OF WORSHIP,6.034117,80.592039,20/12/2025,
+S0143,Pahala Halpe Tube Well,Water Point,6.591122,81.201070,2025-04-27,
+S0144,Wewa Palle Vidyalaya,School,92.228708,80.401941,09/09/2025,
+S0145,Mahawela Pitiya Community Hall,Community Hall,7.112034,80.944761,2025-12-10,checked
+S0146,Halpe Pahala Tube Well,Water Point,78.535189,80.961786,22-Sep-2025,
+S0147,Pahala Siyambala Tube Well,Water Point,7.512552,79.793742,2-Jul-2025,
+S0148,Kanda Ambalam Health Post,HEALTH POST,6d42m23.9sN,"80°46'19.5""E",25-Apr-2025,needs revisit
+S0149,Palle Siyambala Temple,Place of Worship,8 31 14.2 N,"80°57'19.3""E",2025-05-21,needs revisit
+S0150,Kotuwa Ratmal Health Post,health post,"8,786992","80,371586",17/07/2025,checked
+S0151,Bogaha Gal Oya Temple,Place of Worship,6.960273,81.767691,11/08/2025,
+S0152,Wewa Weli Vidyalaya,School,8.189942,80.727675,21/08/2025,checked
+S0153,Ratmal Palle Community Hall,Community Hall,"7,326327","81,202630",2025-09-13,needs revisit
+S0154,Ratmal Ambalam Tube Well,Water Point,7.742280,81.278188,2025-08-09,checked
+S0155,Uduwela Kele Tube Well,Water Point,6.894300,80.004914,05/10/2025,needs revisit
+S0156,Kanda Diya Tube Well,Water Point,6.398778,80.406519,2025-11-25,
+S0157,Pahala Siyambala Tube Well,Water Point,7.071397,80.029868,2025-08-01,
+S0158,Siyambala Siyambala Temple,Worship Place,6 18 1.6 N,81 22 26.9 E,23-Apr-2025,checked
+S0159,Medagama Palle Vidyalaya,SCHOOL,9.817627,80.197619,2025-02-21,
+S0160,Palle Ambalam Health Post,Health Post,6.546903,79.994331,2025-11-06,checked
+S0161,Kele Bogaha Vidyalaya,School,7.294300,80.957608,14/04/2025,
+S0162,Halpe Madiha Temple,Worship Place,7.193205,80.412096,05/02/2025,
+S0163,Ihala Kotuwa Health Post,Health Post,9.313089,80.168630,01/01/2025,
+S0164,Kotuwa Kotuwa Tube Well,Water Point,7.817627,80.434700,2025-07-23,
+S0165,Pahala Halpe Vidyalaya,Scool,9.092937,80.176786,2025-12-26,checked
+S0166,Siyambala Weli Vidyalaya,School,7.648363,80.559253,2025-05-05,
+S0167,Uduwela Ambalam Temple,Place of Worship,6.290892,80.542257,2025-11-05,
+S0168,Madiha Siyambala Temple,Place of Worhsip,"6,553441","81,193672",12/08/2025,
+S0169,Madiha Mawatha Vidyalaya,School,9.176556,80.586425,2025-10-22,
+S0170,Bogaha Thotupola Health Post,health post,6.828579,80.603686,2025-03-25,needs revisit
+S0171,Kele Thotupola Tube Well,Water Point,8.029753,81.123515,11/07/2025,
+S0172,Diya Ambalam Temple,place of worship,7.855737,79.937056,18/04/2025,
+S0173,Siyambala Pitiya Temple,place of worship,"6,308433","80,792029",2025-11-10,
+S0174,Diya Siyambala Community Hall,Community Hall,8.846514,81.024048,2025-12-13,
+S0175,Palle Kotuwa Tube Well,Water Point,8.793523,80.228668,2025-04-16,
+S0176,Weli Weli Vidyalaya,School,7.093401,81.596826,03/10/2025,
+S0177,Palle Pahala Community Hall,Community Hall,8.555695,80.535589,2025-06-05,
+S0178,Uduwela Godagama Vidyalaya,School,6.880382,80.918664,2025-09-22,needs revisit
+S0179,Ambalam Palle Health Post,Health Post,7.970361,81.350303,01/02/2025,
+S0180,Ratmal Thotupola Community Hall,community hall,6.868137,80.128042,2025-01-26,checked
+S0181,Thotupola Pahala Vidyalaya,School,6.271568,80.299695,2025-09-25,needs revisit
+S0182,Bogaha Medagama Health Post,Helth Post,7.020130,80.145466,2025-05-03,
+S0183,Ihala Gal Oya Community Hall,Community Hall,6.200726,81.191531,2025-03-18,
+S0184,Thotupola Weli Temple,Place of Worship,9.730485,80.170328,22/11/2025,checked
+S0185,Bogaha Pitiya Community Hall,Community Hall,6d37m40.6sN,80 5 47.3 E,2025-04-02,needs revisit
+S0186,Mawatha Godagama Temple,place of worship,7.095069,80.677369,22/05/2025,
+S0187,Thotupola Madiha Community Hall,Comunity Hall,N/A,N/A,2025-12-01,checked
+S0188,Mahawela Ihala Tube Well,Water Point,9.275147,80.170925,2025-12-09,
+S0189,Gal Oya Kotuwa Community Hall,Community Hall,7.725045,79.981349,24-May-2025,
+S0190,Ratmal Pahala Temple,Place of Worship,9.025125,80.098062,09/07/2025,checked
+S0191,Mahawela Ambalam Community Hall,Community Hall,7.829565,80.782126,2025-10-21,needs revisit
+S0192,Weli Diya Tube Well,Water Point,6.248634,80.536654,16-Jan-2025,
+S0193,Kele Godagama Temple,Place of Worship,6.578734,81.511188,2025-05-25,
+S0194,Weli Godagama Health Post,Health Post,9.052882,80.763440,08/02/2025,
+S0195,Palle Palle Health Post,health post,7.028506,80.769509,2025-04-02,needs revisit
+S0196,Nuga Ambalam Health Post,Health Post,"8°13'7.1""N","81°10'45.0""E",18-Jan-2025,needs revisit
+S0197,Gal Oya Kanda Vidyalaya,SCHOOL,"8°15'17.3""N",79 58 12.4 E,2025-05-27,checked
+S0198,Wewa Pahala Temple,place of worship,6.758375,80.559423,8-Mar-2025,
+S0199,Kotuwa Wewa Tube Well,Water Point,8.675472,81.169120,15-Feb-2025,checked
+S0200,Palle Godagama Vidyalaya,School,8.705311,80.356840,2025-09-15,
+S0201,Kanda Pitiya Temple,PLACE OF WORSHIP,6.561376,81.643768,2025-12-20,checked
+S0202,Madiha Wewa Health Post,Health Post,8.341094,80.286066,25/08/2025,
+S0203,Medagama Wewa Health Post,Health Post,6.728881,81.026256,2025-04-05,needs revisit
+S0204,Kele Diya Tube Well,WATER POINT,7.715591,81.584175,27/11/2025,
+S0205,Kanda Kanda Vidyalaya,School,0,0,25/01/2025,checked
+S0206,Pahala Kele Temple,Place of Worhsip,6.122262,80.158002,16-Jul-2025,
+S0207,Kotuwa Ihala Temple,Place of Worship,7.213139,79.929522,2-Feb-2025,
+S0208,Thotupola Medagama Health Post,Health Post,6.374578,81.329660,15-Jun-2025,
+S0209,Pahala Medagama Health Post,Health Post,9d45m25.3sN,"80°10'30.3""E",2025-11-27,
+S0210,Godagama Palle Community Hall,Community Hall,6.587670,80.225595,22-Jul-2025,
+S0211,Ratmal Siyambala Temple,PLACE OF WORSHIP,7.373254,80.597701,23-Jul-2025,checked
+S0212,Thotupola Kotuwa Tube Well,Water Point,6.851365,80.501124,2025-05-08,
+S0213,Gal Oya Siyambala Temple,place of worship,9.542952,80.153816,2025-03-04,needs revisit
+S0214,Wewa Thotupola Health Post,Health Post,7.643796,80.196743,2025-02-18,
+S0215,Mawatha Pitiya Tube Well,Water Point,8.903818,80.131873,9-Aug-2025,
+S0216,Kele Godagama Tube Well,WATER POINT,"7,673935","80,987235",23/12/2025,
+S0217,Thotupola Kotuwa Health Post,Health Post,6.380876,80.560029,2025-06-05,
+S0218,Medagama Godagama Vidyalaya,School,6.727348,81.216798,2025-07-17,checked
+S0219,Bogaha Wewa Health Post,Helth Post,9.086088,80.846570,13-Jan-2025,
+S0220,Kele Godagama Vidyalaya,School,6.764949,80.618329,2025-04-04,
+S0221,Palle Nuga Vidyalaya,Scool,7.916544,80.970637,2025-04-05,needs revisit
+S0222,Kotuwa Madiha Health Post,Health Post,8 6 40.5 N,80d4m44.5sE,03/11/2025,checked
+S0223,Medagama Mawatha Health Post,Health Post,6.811322,80.398192,1-Feb-2025,
+S0224,Weli Ambalam Community Hall,Community Hall,8.818257,81.027986,2025-08-26,checked
+S0225,Nuga Medagama Temple,Worship Place,8.912534,80.500745,6-Jan-2025,needs revisit
+S0226,Godagama Ratmal Vidyalaya,School,81.055138,7.707876,2025-07-16,needs revisit
+S0227,Madiha Kanda Community Hall,Comunity Hall,8.247061,80.527764,2025-03-09,
+S0228,Palle Weli Vidyalaya,school ,6.946286,80.967893,2025-11-10,
+S0229,Uduwela Siyambala Vidyalaya,School,8.036659,81.428089,2025-02-09,needs revisit
+S0230,Pahala Wewa Health Post,Helth Post,6.805715,79.963920,26/11/2025,
+S0231,Mahawela Pitiya Vidyalaya,School,6 24 54.4 N,80d21m6.3sE,2025-09-26,
+S0232,Mahawela Palle Health Post,Health Post,7.014152,80.032040,2025-07-09,checked
+S0233,Ihala Gal Oya Community Hall,Community Hall,6.239360,81.048024,26/01/2025,
+S0234,Bogaha Weli Temple,Place of Worship,9.645561,80.260778,2025-08-17,
+S0235,Mahawela Ihala Temple,Place of Worship,80.184612,6.735348,2025-03-04,
+S0236,Mahawela Wewa Tube Well,water point,7.119684,80.482943,19-Apr-2025,needs revisit
+S0237,Palle Wewa Community Hall,Community Hall,7.071182,80.387857,2025-03-06,checked
+S0238,Halpe Kotuwa Health Post,Health Post,80.410920,9.384116,12-Dec-2025,
+S0239,Kanda Palle Health Post,Health Post,7.376530,80.197081,19/06/2025,
+S0240,Weli Uduwela Community Hall,Community Hall,"8°47'14.1""N",80 7 56.5 E,2025-03-16,
+S0241,Halpe Siyambala Vidyalaya,school ,7.559017,80.652878,2025-01-17,checked
+S0242,Ambalam Bogaha Temple,Place of Worship,6.166482,80.441559,2025-04-26,
+S0243,Thotupola Mahawela Health Post,Health Post,7.114092,81.454946,2025-06-02,
+S0244,Wewa Gal Oya Vidyalaya,School,9.007986,80.332941,2025-03-25,
+S0245,Mahawela Mahawela Temple,Place of Worship,N/A,N/A,12/02/2025,needs revisit
+S0246,Palle Godagama Health Post,Health Post,8.143843,81.252304,2025-06-10,
+S0247,Palle Wewa Temple,Place of Worship,7d44m5.6sN,79 55 12.9 E,2025-08-21,
+S0248,Weli Weli Temple,Place of Worship,6d36m56.9sN,80d48m0.9sE,22/04/2025,
+S0249,Uduwela Weli Community Hall,Community Hall,8.592161,81.223860,2025-12-23,
+S0250,Wewa Wewa Vidyalaya,School,"8,729876","80,247327",2025-12-19,
+S0251,Gal Oya Kotuwa Temple,PLACE OF WORSHIP,7.469163,81.769042,08/10/2025,
+S0252,Bogaha Kotuwa Temple,Place of Worship,8.517103,80.212379,11/03/2025,
+S0253,Godagama Kanda Vidyalaya,School,7.207426,81.086011,06/06/2025,
+S0254,Gal Oya Pahala Health Post,Health Post,8.218198,81.324327,21/11/2025,checked
+S0255,Madiha Kanda Vidyalaya,school ,6 56 41.6 N,"79°50'22.1""E",2025-12-03,
+S0256,Uduwela Diya Health Post,Health Post,6.091241,80.379679,2025-01-13,needs revisit
+S0257,Mahawela Kanda Temple,Place of Worship,6.919811,80.061771,16-Jul-2025,checked
+S0258,Wewa Weli Tube Well,Water Point,6.388474,81.493157,2025-02-27,
+S0259,Ratmal Ambalam Temple,Place of Worship,9.745292,80.190880,2025-11-08,
+S0260,Wewa Nuga Tube Well,Water Point,"6,557770","80,044643",2025-01-10,checked
+S0261,Nuga Halpe Health Post ,Health Post,6.872643,81.004195,2025-03-13,duplicate entry
+S0262,UDUWELA DIYA HEALTH POST,Health Post,6.091126,80.379799,11/02/2025,duplicate entry
+S0263,Kotuwa Ihala Temple ,Place of Worship,7.213170,79.929518,14-Jan-2025,duplicate entry
+S0264,KANDA PALLE HEALTH POST,Health Post,7.376440,80.197187,2025-03-02,duplicate entry
+S0265,Gal Oya Pahala Health Post ,Health Post,8.218119,81.324242,18/12/2025,duplicate entry
+S0266,MAWATHA NUGA HEALTH POST,Health Post,6.346599,80.361130,2025-05-10,duplicate entry
+S0267,Weli Uduwela Community Hall ,Community Hall,8.787118,80.132381,2025-08-05,duplicate entry
+S0268,NUGA MADIHA VIDYALAYA,School,7.362207,80.614512,21/11/2025,duplicate entry
+S0269,Pitiya Ihala Health Post ,Health Post,7.694937,81.636075,2025-03-21,duplicate entry
+S0270,THOTUPOLA RATMAL HEALTH POST,Health Post,6.256061,80.789642,2025-05-26,duplicate entry
+S0271,Medagama Palle Vidyalaya ,School,9.817624,80.197663,21/02/2025,duplicate entry
+S0272,MADIHA SIYAMBALA TEMPLE,Place of Worship,6.553356,81.193777,2025-06-06,duplicate entry
+S0273,Gal Oya Bogaha Community Hall ,Community Hall,7.096700,79.892313,2025-04-27,duplicate entry
+S0274,BOGAHA IHALA TEMPLE,Place of Worship,6.141092,80.645869,2025-11-04,duplicate entry
+S0275,Mahawela Kele Tube Well ,Water Point,7.813930,81.564093,08/10/2025,duplicate entry
+S0276,GODAGAMA SIYAMBALA TEMPLE,Place of Worship,8.239571,80.524851,18/07/2025,duplicate entry

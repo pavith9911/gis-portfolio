@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SolarScope | Solar Site Suitability Workbench (demo)</title>
+  <meta name="description" content="Interactive weighted-overlay workbench for solar site selection. Demo with synthetic data.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bench">
+    <aside class="rail" aria-label="Analysis controls">
+      <header>
+        <div class="logo" aria-hidden="true"></div>
+        <div><h1>SolarScope</h1><p>Site suitability workbench</p></div>
+      </header>
+      <div class="demo">DEMO: all layers are <b>synthetic</b>, generated in the browser to show the method. Replace them with real rasters for a real study.</div>
+
+      <section>
+        <div class="sec-head"><h2>Criteria weights</h2>
+          <div class="presets">
+            <button type="button" data-p="balanced">Balanced</button>
+            <button type="button" data-p="resource">Resource</button>
+            <button type="button" data-p="grid">Grid</button>
+          </div>
+        </div>
+        <div id="weights"></div>
+      </section>
+
+      <section>
+        <h2>Constraints</h2>
+        <label class="chk"><input type="checkbox" id="ex-water" checked> Exclude water bodies</label>
+        <label class="chk"><input type="checkbox" id="ex-prot" checked> Exclude protected area</label>
+        <label class="chk"><input type="checkbox" id="ex-urban" checked> Exclude built-up areas</label>
+        <label class="rng">Hard slope limit <output id="slope-out"></output>
+          <input type="range" id="slope-lim" min="2" max="15" step="0.5" value="8"></label>
+      </section>
+
+      <section>
+        <h2>Display</h2>
+        <label class="rng">Show cells scoring at least <output id="thr-out"></output>
+          <input type="range" id="thr" min="0" max="95" step="5" value="40"></label>
+        <label class="chk"><input type="checkbox" id="show-grid" checked> Transmission lines</label>
+        <label class="chk"><input type="checkbox" id="show-roads" checked> Roads</label>
+      </section>
+
+      <section class="method">
+        <details>
+          <summary>Method</summary>
+          <p>Each criterion is rescaled to a 0 to 1 suitability value with a simple reclass function, then combined as a weighted sum and expressed on a 0 to 100 scale. Cells that break a hard constraint are excluded.</p>
+          <ul>
+            <li><b>Irradiation:</b> 4.8 kWh/m&sup2;/day scores 0, 5.4 or more scores 1</li>
+            <li><b>Slope:</b> up to 2&deg; scores 1, falling to 0 at 10&deg;</li>
+            <li><b>Grid distance:</b> within 3 km scores 1, falling to 0 at 30 km</li>
+            <li><b>Road distance:</b> within 1 km scores 1, falling to 0 at 10 km</li>
+          </ul>
+          <p>For a real study, replace the synthetic grids with SRTM slope, a solar-resource raster (e.g. Global Solar Atlas), distance rasters from the national grid and road network, and land-cover or protected-area masks, all resampled to one grid in QGIS.</p>
+        </details>
+      </section>
+    </aside>
+
+    <main class="stage">
+      <div id="map" role="application" aria-label="Suitability map"></div>
+      <div class="hover" id="hover" aria-live="polite">Hover over the map to inspect a cell</div>
+      <div class="legend" id="legend"></div>
+      <section class="dock" aria-label="Results">
+        <div class="dock-col">
+          <h3>Area by suitability class</h3>
+          <div id="classes"></div>
+        </div>
+        <div class="dock-col wide">
+          <div class="dock-head"><h3>Best sites <small>(10 best, at least 3 cells apart)</small></h3><button type="button" id="export">Export CSV</button></div>
+          <ol id="top" class="top"></ol>
+        </div>
+        <div class="dock-col" id="cell-col">
+          <h3>Selected cell</h3>
+          <div id="cell">Click a cell to see how its score is built.</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

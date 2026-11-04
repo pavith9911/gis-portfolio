@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GIS &amp; WebGIS Portfolio</title>
+<meta name="description" content="Seven small WebGIS and GIS data projects: interactive maps, spatial analysis, live data and data cleaning.">
+<style>
+:root{--bg:#f4f1ea;--ink:#16202a;--mut:#5d6872;--line:#d8d2c4;--acc:#0f6b5c;--card:#fffdf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif;
+ background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:48px 48px;background-position:-1px -1px}
+.wrap{max-width:1040px;margin:0 auto;padding:56px 22px 72px;background:linear-gradient(var(--bg),var(--bg)) padding-box}
+header{border-bottom:3px double var(--ink);padding-bottom:26px;margin-bottom:34px}
+.kick{font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+h1{font-size:clamp(34px,6vw,58px);line-height:1.05;margin:12px 0 14px;font-weight:700}
+header p{max-width:640px;color:var(--mut);margin:0;font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+a.card{display:block;background:var(--card);border:1px solid var(--ink);padding:18px 18px 16px;text-decoration:none;color:inherit;box-shadow:5px 5px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+a.card:hover,a.card:focus-visible{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--acc);outline:none}
+.no{font:700 13px ui-monospace,Menlo,monospace;color:var(--acc)}
+.card h2{font-size:21px;margin:6px 0 6px}
+.card p{margin:0 0 12px;color:var(--mut);font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font:11.5px ui-monospace,Menlo,monospace;border:1px solid var(--line);padding:2px 7px;color:var(--ink);background:#f4f1ea}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--ink);font-size:14px;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kick">Portfolio / GIS &amp; WebGIS</div>
+  <h1>Maps that answer questions.</h1>
+  <p>Seven focused projects covering interactive web maps, spatial analysis, live data feeds and GIS data cleaning. Each one opens on its own and has a different interface, because each solves a different job.</p>
+</header>
+<main class="grid">
+  <a class="card" href="https://pavith9911.github.io/sri-lanka-district-atlas/"><div class="no">01</div><h2>Sri Lanka District Atlas</h2><p>Choropleth of real census data for all 25 districts, with ranking and comparison.</p><div class="tags"><span>Leaflet</span><span>Census</span><span>Choropleth</span></div></a>
+  <a class="card" href="02-business-directory-map/index.html"><div class="no">02</div><h2>Business Directory Map</h2><p>Searchable local listings with clustering, filters and an add-a-place form.</p><div class="tags"><span>Clustering</span><span>Filters</span><span>Mobile</span></div></a>
+  <a class="card" href="03-plot-plan-overlay/index.html"><div class="no">03</div><h2>Plot Plan Overlay</h2><p>Land subdivision plan georeferenced over satellite imagery, with sales status and enquiry drawer.</p><div class="tags"><span>Georeferencing</span><span>Real estate</span><span>Measure</span></div></a>
+  <a class="card" href="04-solar-site-suitability/index.html"><div class="no">04</div><h2>Solar Site Suitability</h2><p>Weighted-overlay analysis with adjustable weights and ranked candidate sites. Demo data.</p><div class="tags"><span>MCDA</span><span>Raster</span><span>Analysis</span></div></a>
+  <a class="card" href="05-live-earthquake-dashboard/index.html"><div class="no">05</div><h2>Live Earthquake Dashboard</h2><p>USGS feed refreshed every minute, with KPIs, charts and an event feed.</p><div class="tags"><span>Live API</span><span>GeoJSON</span><span>Charts</span></div></a>
+  <a class="card" href="06-satellite-swipe-viewer/index.html"><div class="no">06</div><h2>Satellite Swipe Viewer</h2><p>Before/after comparison of daily NASA imagery with a draggable divider.</p><div class="tags"><span>NASA GIBS</span><span>WMTS</span><span>Swipe</span></div></a>
+  <a class="card" href="07-gis-data-cleaning-toolkit/output/report.html"><div class="no">07</div><h2>GIS Data-Cleaning Toolkit</h2><p>Python script that turns a messy survey CSV into a validated layer with a quality report.</p><div class="tags"><span>Python</span><span>QA/QC</span><span>GeoJSON</span></div></a>
+</main>
+<footer>Sample data in projects 02, 03 and 04 is synthetic and labelled as such. Projects 01, 05 and 06 use real public data (census, USGS, NASA).</footer>
+</div>
+</body>
+</html>
