@@ -74,8 +74,8 @@
   var bases = {
     sat: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
       { maxNativeZoom: 19, maxZoom: 21, attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics' }),
-    map: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
-      { subdomains: 'abcd', maxNativeZoom: 19, maxZoom: 21, attribution: '&copy; OpenStreetMap contributors &copy; CARTO' })
+    map: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+      { maxNativeZoom: 18, maxZoom: 21, attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, OpenStreetMap contributors' })
   };
   var base = bases.sat.addTo(map);
 

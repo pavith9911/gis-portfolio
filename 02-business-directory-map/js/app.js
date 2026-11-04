@@ -77,9 +77,10 @@
 
   var map = L.map('map', { zoomControl: false }).setView([7.05, 80.2], 8);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    subdomains: 'abcd', maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  // Esri World Street Map: free tiles, no API key needed
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    maxNativeZoom: 18, maxZoom: 19,
+    attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, OpenStreetMap contributors'
   }).addTo(map);
   var layer = L.layerGroup().addTo(map);
   var markerById = {};

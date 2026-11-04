@@ -88,8 +88,12 @@
 
   var state = { events: [], minMag: 0, sort: 'time', feed: '2.5_week', left: REFRESH_S, demo: false, selected: null };
   var map = L.map('map', { worldCopyJump: true, minZoom: 1.5, zoomSnap: 0.5 }).setView([15, 20], 2);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    subdomains: 'abcd', maxZoom: 12, attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  // Esri Dark Gray Canvas: free tiles, no API key needed
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    maxNativeZoom: 16, maxZoom: 12, attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, OpenStreetMap contributors'
+  }).addTo(map);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+    maxNativeZoom: 16, maxZoom: 12
   }).addTo(map);
   var layer = L.layerGroup().addTo(map);
   var markers = {};

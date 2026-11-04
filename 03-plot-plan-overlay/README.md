@@ -8,7 +8,7 @@ Open `index.html` in a browser (or host the folder on GitHub Pages). No build st
 
 ## Built with
 
-Leaflet 1.9.4, SVG `L.imageOverlay`, Esri World Imagery / CARTO base maps, vanilla JS.
+Leaflet 1.9.4, SVG `L.imageOverlay`, Esri World Imagery / World Street Map base maps, vanilla JS.
 
 ## Data
 

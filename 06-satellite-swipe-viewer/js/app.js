@@ -61,8 +61,9 @@
   map.createPane('right').style.zIndex = 211;
   map.createPane('labels').style.zIndex = 450;
   map.getPane('labels').style.pointerEvents = 'none';
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {
-    subdomains: 'abcd', pane: 'labels', maxZoom: 12, attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  // Esri place labels for imagery: free tiles, no API key needed
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+    pane: 'labels', maxZoom: 12, attribution: 'Labels Tiles &copy; Esri'
   }).addTo(map);
 
   var leftLayer = null, rightLayer = null;

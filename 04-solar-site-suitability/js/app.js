@@ -130,8 +130,12 @@
   var state = { w: Object.assign({}, PRESETS.balanced), exW: true, exP: true, exU: true, slopeLim: 8, thr: 40, sel: null };
 
   var map = L.map('map', { zoomSnap: 0.25 });
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    subdomains: 'abcd', maxZoom: 14, attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  // Esri Dark Gray Canvas: free tiles, no API key needed
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    maxNativeZoom: 16, maxZoom: 14, attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, OpenStreetMap contributors'
+  }).addTo(map);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+    maxNativeZoom: 16, maxZoom: 14
   }).addTo(map);
   map.fitBounds([[BOX.south, BOX.west], [BOX.north, BOX.east]], { padding: [10, 10] });
   var canvas = L.canvas({ padding: 0.1 });

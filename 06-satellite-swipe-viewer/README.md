@@ -16,4 +16,4 @@ Live NASA GIBS imagery (MODIS Terra/Aqua, VIIRS, false colour). Daily mosaics ca
 
 ## Notes
 
-Imagery: NASA EOSDIS GIBS. Labels (c) OpenStreetMap contributors (c) CARTO.
+Imagery: NASA EOSDIS GIBS. Labels (c) Esri.
